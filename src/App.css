@@ -1,0 +1,101 @@
+/* Main Page CSS Start */
+
+.panel {
+  background: url("../public/back.gif") no-repeat;
+  background-size: cover;
+  height: 58rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 7rem;
+}
+
+.panel p {
+  font-size: 8rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.panel h2 {
+  margin-top: 20rem;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.4rem;
+  color: #fff;
+}
+
+@media (max-width:430px) {
+  .panel p{
+    font-size: 5rem;
+  }
+}
+
+@media (max-width:380px) {
+  .panel p{
+    font-size: 4.5rem;
+  }
+}
+
+.panel a {
+  font-size: 5rem;
+  margin-top: 8rem;
+  text-decoration: none;
+}
+
+.panel a:hover {
+}
+
+#aboutDiv {
+  padding: 5rem 0;
+  background-color: #fac28e;
+}
+
+#aboutDiv h3 {
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+#aboutDiv p {
+  font-size: 1.5rem;
+}
+
+#mainDiv {
+  padding: 1rem 0 4rem 0;
+  background-color: #f15a25;
+  
+}
+
+#mainDiv > img{
+  margin-bottom: 5rem;
+}
+
+#mainDiv #title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 600;
+  margin: 3rem 0;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#guideDetailsPageDiv {
+  background-color: #fac7b3;
+  padding: 5rem 0;
+}
+
+#guideDetailsPageDiv > h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 4rem;
+}
+
+#welcomeWoman{
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  cursor: pointer;
+}
+
+/* Main Page CSS End */

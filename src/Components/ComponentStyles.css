@@ -1,0 +1,274 @@
+html {
+  font-size: 62.5%;
+}
+
+a,
+Link {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+/* Footer Page CSS Start */
+
+footer {
+  font-size: 1.3rem;
+  padding: 2rem 0;
+  background-color: beige;
+}
+
+#myfooter {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+#logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#logo img {
+  margin: 0 0 1rem 5rem;
+}
+
+#placeList {
+  margin-left: -2rem;
+}
+
+#number{
+  color:#bd3402;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+h3 {
+  margin-bottom: 2rem;
+}
+
+#socialMediaIcons > a {
+  margin-right: 2rem;
+}
+
+.copyrightLine p {
+  margin: 2rem 0 0 0;
+  text-align: center;
+}
+
+.footerLastLine p {
+  text-align: center;
+  font-weight: 600;
+}
+
+@media (max-width:470px) {
+  .classic{
+    margin-left: 6.5rem;
+  }
+  
+  #placeList{
+    font-size: 1.5rem;
+  }
+  #socialMediaIcons{
+    line-height: 6rem;
+  }
+  .copyrightLine{
+    padding-top: 2rem;
+  }
+  #contact > p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+/* Footer Page CSS End */
+
+/* Navbar Page CSS Start */
+
+nav {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  background-color: beige;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbarList ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.navbarList ul li {
+  cursor: pointer;
+}
+
+.navbarList ul li:hover {
+  animation: shake 300ms;
+}
+@keyframes shake {
+  25% {
+    transform: translateX(0.4rem);
+  }
+  50% {
+    transform: translateX(-0.4rem);
+  }
+  75% {
+    transform: translateX(0.4rem);
+  }
+}
+
+/* Navbar Page CSS End */
+
+/* Description Card CSS Start */
+
+.ItemCardBody {
+  width: 25rem;
+  border: 0.1rem solid lightgray;
+  border-radius: 1.5rem;
+  background-color: beige;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.ItemCardBody:hover {
+  box-shadow: 0 0 0.7rem 0.7rem #bd3402;
+}
+
+.placeImage {
+  width: 24.9rem;
+  overflow: hidden;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.placeImage img {
+  width: 25rem;
+  border-radius: 1.5rem 1.5rem 0 0;
+  transition: transform 0.2s;
+  height: 18rem;
+}
+
+.placeImage img:hover {
+  transform: scale(1.1);
+}
+
+.tourDetails {
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.features {
+  padding: 1.1rem;
+  border: 0.2rem solid rgb(191, 240, 255);
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: gray;
+}
+
+.description {
+  line-height: 0.7rem;
+  margin-top: 2rem;
+}
+
+.description h3 {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.description p {
+  font-size: 1.3rem;
+  color: gray;
+  line-height: 1.5rem;
+}
+
+/* Description Card CSS End */
+
+/* Guide Detail Card CSS Start */
+
+.guideCardBody {
+  display: flex;
+  align-items: center;
+  border: 0.2rem dashed beige;
+  background-color: #7f3b3b;
+  color: beige;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+}
+
+.content{
+  padding: 5rem;
+}
+
+.content p {
+  font-size: 1.5rem;
+}
+
+/* Guide Detail Card CSS End */
+
+/* Media query for Tablet and Mobile devices */
+
+@media (max-width: 1025px) {
+  /* small laptops */
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 770px) {
+  /* for tablets */
+  html {
+    font-size: 40%;
+  }
+  nav{
+    height: 9rem;
+    padding-right: 2rem;
+  }
+  #logo img {
+    margin: 0 0 1rem 4rem;
+  }
+}
+
+@media (max-width: 430px) {
+  /* For mobiles */
+  html {
+    font-size: 40%;
+  }
+  .navbarList ul {
+    font-size: 1.2rem;
+    justify-content: space-between;
+  }
+  #myfooter {
+    grid-template-columns: auto auto;
+  }
+  .classic {
+    margin-top: 1.3rem;
+  }
+  #logo img {
+    margin: 0 0 1rem 3rem;
+  }
+}
+
+@media (max-width: 320px) {
+  /* for small mobiles */
+  html {
+    font-size: 30%;
+  }
+}

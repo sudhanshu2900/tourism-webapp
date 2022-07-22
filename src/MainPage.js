@@ -20,8 +20,8 @@ function MainPage() {
       <Navbar />
 
       <div className="panel" id="home">
-        <p>Travel your favorite place</p>
-        <h2>Explore Rajasthan with us</h2>
+        <p>Rajasthan Tour Service</p>
+        <h2>Explore Rajasthan With Us</h2>
 
         <a href="#mainDiv">🐪</a>
       </div>

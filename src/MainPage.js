@@ -4,6 +4,9 @@ import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import "./App.css";
 import GuideDetailCard from "./Components/GuideDetailCard";
+import ImageSlider from "./Components/ImageSlider";
+import { Link } from "react-router-dom";
+import ReviewCard from "./Components/ReviewCard";
 
 function MainPage() {
   const { Howl } = require("howler");
@@ -37,6 +40,18 @@ function MainPage() {
               tourist sites and you can also hire them as Food & Shopping guides
               at the same fare.
             </p>
+          </div>
+          <div className="row">
+            <h3
+              style={{
+                textAlign: "center",
+                fontSize: "25px",
+                marginBottom: "20px",
+              }}
+            >
+              Customer Reviews
+            </h3>
+            <ReviewCard />
           </div>
         </div>
       </div>

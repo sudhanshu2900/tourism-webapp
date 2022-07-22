@@ -11,19 +11,19 @@ function Navbar() {
             <ul>
               <li>
                 <a
-                  href="#home"
-                  style={{ textDecoration: "none", color: "#000" }}
-                >
-                  Home
-                </a>
-              </li>
-              <li>
-                <a
                   href="#aboutDiv"
                   style={{ textDecoration: "none", color: "#000" }}
                 >
                   About Us
                 </a>
+              </li>
+              <li>
+                <Link
+                  to="/gallery"
+                  style={{ textDecoration: "none", color: "#000" }}
+                >
+                  Gallery
+                </Link>
               </li>
               <li id="logoLi">
                 <img src="traveller.png" alt="logo" width={"40px"} />

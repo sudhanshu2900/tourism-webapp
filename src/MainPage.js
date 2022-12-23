@@ -4,8 +4,6 @@ import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import "./App.css";
 import GuideDetailCard from "./Components/GuideDetailCard";
-import ImageSlider from "./Components/ImageSlider";
-import { Link } from "react-router-dom";
 import ReviewCard from "./Components/ReviewCard";
 
 function MainPage() {
@@ -116,6 +114,9 @@ function MainPage() {
         src="womenWelcome.png"
         alt="swagat"
         id="welcomeWoman"
+        data-toggle="tooltip"
+        data-placement="top"
+        title="Click on me"
         width={"10%"}
         onClick={() => {
           welcomeSound.play();

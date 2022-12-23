@@ -31,6 +31,7 @@ function ImageGalleryPage() {
         </div>
       </div>
       <img src="./photos/udaipur.jpg" alt="" width={"100%"} />
+      <img src="mandala.jpg" alt="mandala" width={"100%"} />
     </section>
   );
 }

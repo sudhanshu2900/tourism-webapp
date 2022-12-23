@@ -23,21 +23,21 @@ function Footer() {
             </div>
             <div className="classic" id="contact">
               <h3>Have Query? Call us</h3>
-              <p id="number">📞 +91 9887134034</p>
-              <p>📝 gupta.vn63@gmail.com</p>
+              <p id="number">📞 +91 91122334455</p>
+              <p>📝 rts@travelraj.com</p>
             </div>
             <div className="classic" id="socialMediaIcons">
               <h3>Our Media</h3>
 
               <a
-                href="https://www.google.com/search?q=Rajasthan+top+famous+place&client=ms-android-xiaomi-rvo2&prmd=nimv&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjqsJuqpcb3AhWoTGwGHWlLDM8Q_AUoAnoECAIQAg&biw=393&bih=764&dpr=2.75"
+                href="https://www.google.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <BsGoogle size={20} />
               </a>
               <a
-                href="https://www.instagram.com/tourism_jaipur/?igshid=YmMyMTA2M2Y="
+                href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >

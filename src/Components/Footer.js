@@ -10,7 +10,7 @@ function Footer() {
           <div id="myfooter">
             <div className="classic" id="logo">
               <img src="traveller.png" alt="logo" width={"60px"} />
-              <h4>Rajasthan Tour Service</h4>
+              <h4>Rajasthan Tourism Service</h4>
             </div>
             <div className="classic">
               <h3>We are available at</h3>
@@ -46,7 +46,9 @@ function Footer() {
             </div>
           </div>
           <div className="copyrightLine">
-            <p>Copyright @ 2022, Rajasthan Tour Service. All Right Reserved</p>
+            <p>
+              Copyright @ 2022, Rajasthan Tourism Service. All Right Reserved
+            </p>
           </div>
           <div className="footerLastLine">
             <p>

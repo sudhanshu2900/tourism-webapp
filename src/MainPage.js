@@ -18,7 +18,7 @@ function MainPage() {
       <Navbar />
 
       <div className="panel" id="home">
-        <p>Rajasthan Tour Service</p>
+        <p>Rajasthan Tourism Service</p>
         <h2>Explore Rajasthan With Us</h2>
 
         <a href="#mainDiv">🐪</a>
@@ -29,14 +29,11 @@ function MainPage() {
           <div className="row">
             <h3>ABOUT US</h3>
 
-            <p>
+            <p className="text-center">
               The best way to enjoy a sightseeing tour of Rajasthan, or visit
               the famous markets, tasting the local cuisine is along with a tour
-              guide. Our guides are from Rajasthan and has also cleared an exam
-              conducted by Rajasthan tourism board. After clearing this exam,
-              they receive a Green card. Our guides will assist you for all
-              tourist sites and you can also hire them as Food & Shopping guides
-              at the same fare.
+              guide. Our guides will assist you for all tourist sites and you
+              can also hire them as Food & Shopping guides at the same fare.
             </p>
           </div>
           <div className="row">

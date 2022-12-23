@@ -12,7 +12,7 @@ function ReviewCard() {
           <div className="carousel-item active">
             <div className="customerReview">
               <p>
-                Its very fantastic journey with Rajasthan Tour Service. They
+                Its very fantastic journey with Rajasthan Tourism Service. They
                 cover various parts of Rajasthan and provided valuable
                 knowledge. Always ready to help us and never reminds us that we
                 are in another country.
@@ -23,9 +23,9 @@ function ReviewCard() {
           <div className="carousel-item">
             <div className="customerReview">
               <p>
-                Amazing experience with Rajasthan Tour Service, guides are also
-                good and caring. Thier charges are also normal and I recommends
-                that you can choose this.
+                Amazing experience with Rajasthan Tourism Service, guides are
+                also good and caring. Thier charges are also normal and I
+                recommends that you can choose this.
               </p>
               <h4>Naveen Kumawat</h4>
             </div>
@@ -34,7 +34,7 @@ function ReviewCard() {
             <div className="customerReview">
               <p>
                 I'm very satisfied by thier guide service. This journey is
-                wonderful because of Rajasthan Tour Service. Always ready to
+                wonderful because of Rajasthan Tourism Service. Always ready to
                 help us and never reminds us that we are in another country.
               </p>
               <h4>Ayush Agarwal</h4>
